@@ -1,0 +1,633 @@
+/**************************
+      General 
+**************************/
+
+body {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  word-spacing: 2px;
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* section {
+  margin: 170px auto;
+} */
+
+/**************************
+      Header 
+**************************/
+
+header {
+  width: 100%;
+  height: 680px;
+  background: linear-gradient(80deg, #ff9500 0, #ff6200 100%) !important;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.header-left img {
+  width: 100%;
+  height: 550px;
+  margin-top: 30px;
+}
+
+.header-right {
+  margin-top: 100px;
+}
+
+.top-header {
+  padding-left: 275px;
+  color: white;
+}
+
+.top-header p {
+  display: inline-block;
+}
+
+.top-header p,
+.top-header a {
+  padding-left: 10px;
+}
+
+/**************************
+      Menu 
+**************************/
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #dddddd;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f4f4f4;
+}
+
+.nav-link {
+  font-size: 18px;
+  text-align: center;
+}
+
+/**************************
+      Buttons 
+**************************/
+
+.btn {
+  padding: 10px 50px;
+}
+
+.btn a {
+  color: #f4f4f4;
+  font-weight: 400;
+}
+
+.btn-warning {
+  background-color: #ff6200;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #ff9500;
+  transition: background-color 0.5s ease-out;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: 1px solid #f4f4f4;
+}
+
+.btn-primary:hover {
+  background-color: #f4f4f4;
+  border: none;
+  transition: background-color 1s ease-out;
+}
+
+.btn-primary:hover a {
+  color: #ff6200;
+}
+
+.btn-danger {
+  background-color: transparent;
+  border: 1px solid #ff9500;
+}
+
+.btn-danger a {
+  color: #ff6200;
+}
+
+.btn-danger:hover {
+  background-color: #ff9500;
+  border: none;
+  transition: background-color 1s ease-out;
+}
+
+.btn-danger:hover a {
+  color: #fff;
+}
+
+/**************************
+      Box
+**************************/
+
+.services {
+  background-color: #fff;
+  padding: 200px 0 150px 0;
+  margin: 10px;
+  position: relative;
+}
+
+.services ion-icon {
+  color: #666;
+  font-size: 50px;
+  position: absolute;
+  left: 110px;
+  top: -40px;
+  margin-top: 30px;
+}
+
+/**************************
+      Investment
+**************************/
+
+.investment {
+  background-color: #f4f4f4;
+  padding: 150px 0 150px 0;
+  position: relative;
+}
+
+.investment h2:first-child::after {
+  content: "";
+  border-bottom: 2px solid #ccc;
+  width: 380px;
+  position: absolute;
+  top: 50px;
+  left: 380px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #ff6200;
+}
+
+.nav-pills .nav-link {
+  background-color: #f4f4f4;
+  color: #ff6200;
+}
+
+.tabs p:last-child {
+  margin-top: 80px;
+  font-size: 25px;
+}
+
+.tab-table {
+  margin-top: 80px;
+  font-size: 14px;
+}
+
+.tab-card {
+  margin-top: 60px;
+  background-color: #ff9500;
+}
+
+.tab-box .card {
+  background-color: #ff9500;
+  color: #f4f4f4;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 120px;
+}
+
+.tab-box ion-icon {
+  font-size: 35px;
+  position: absolute;
+  top: -30px;
+  left: 120px;
+}
+
+.tab-rounded-box {
+  position: absolute;
+  top: 100;
+  left: 80px;
+  background-color: #ff6200;
+  border: 2px dotted #fff;
+  width: 40%;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.btn-rounded {
+  color: #f4f4f4;
+  background-color: #ff9500;
+  border-radius: 20px;
+  box-shadow: 0.2rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-rounded:hover {
+  color: #f4f4f4;
+  background-color: #ff6200;
+  border-radius: 20px;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.btn-rounded ion-icon {
+  color: #f4f4f4;
+}
+
+/**************************
+      Overview
+**************************/
+
+.overview {
+  background-color: #fff;
+  padding: 150px 0 150px 0;
+}
+
+.overview-right p span,
+.feature-left p span {
+  font-size: 14px;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #999;
+  border-radius: 50%;
+}
+
+.yellow-circle {
+  width: 146px;
+  height: 146.8px;
+  border: 2px solid #ff9500;
+  border-radius: 50%;
+}
+
+.progress-circle {
+  position: relative;
+  text-align: center;
+}
+
+.progress-circle .inner-circle .main {
+  line-height: 18px;
+  font-size: 11px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.progress-circle .inner-circle {
+  width: 100%;
+  text-align: center;
+  height: 150px;
+  margin-top: -75px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  display: none;
+}
+
+.progress-circle .inner-circle .inner-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.progress-circle .inner-circle .subtitle {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 5px 0 0 0;
+}
+
+.progress-circle .inner-circle .counter-circle {
+  font-size: 15px;
+  z-index: 9;
+  position: relative;
+}
+
+/**************************
+      Team
+**************************/
+
+.team {
+  padding: 150px 0 150px 0;
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+.team ion-icon,
+.team i {
+  font-size: 40px;
+  color: #ff9500;
+}
+
+.icon-box {
+  display: table;
+}
+
+.icon-box-cell:first-child {
+  padding-right: 10px;
+  margin-right: 15px;
+  border-right: 2px solid rgba(123, 123, 123, 0.25);
+}
+
+.icon-box-cell:last-child {
+  padding-left: 10px;
+}
+
+.icon-box-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.team h3::after {
+  content: "";
+  border-bottom: 3px solid #ff9500;
+  width: 255px;
+  position: absolute;
+  top: 80px;
+  left: 18px;
+}
+
+.team-right img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 8px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+/**************************
+      Referrals
+**************************/
+
+.referral {
+  padding: 150px 0 150px 0;
+  position: relative;
+}
+
+.referral .card {
+  border-left: none;
+  border-bottom: none;
+  border-top: 10px solid #ff6200;
+  border-right: 10px solid #ff6200;
+}
+
+.referral h1.card-title {
+  font-size: 50px;
+  color: #ff9500;
+}
+
+.referral .card-text,
+.referral h4 {
+  color: #ff9500;
+}
+
+.referral-box-1::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 400px;
+  height: 300px;
+  border-right: 2px solid #ccc;
+  padding-right: 15px;
+}
+
+/**************************
+      Deposit
+**************************/
+
+.deposit {
+  background-color: #ff9500;
+  padding: 30px;
+  position: relative;
+}
+
+.deposit ion-icon {
+  font-size: 50px;
+  margin-top: 5px;
+}
+
+.b-left::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -30px;
+  border-right: 2px solid #fff;
+  height: 60px;
+  margin-left: 20px;
+}
+
+/**************************
+      Features
+**************************/
+
+.features {
+  background-color: #f4f4f4;
+  padding: 150px 0 150px 0;
+}
+
+/**************************
+      Logos
+**************************/
+
+.logos {
+  background-color: #fff;
+  padding: 80px 0 80px 0;
+}
+
+.logos h3 {
+  margin-top: -15px;
+}
+
+.logos h3::after {
+  content: "";
+  border-bottom: 3px solid #ff9500;
+  width: 170px;
+  position: absolute;
+  top: 70px;
+  left: 18px;
+}
+
+.logo-box img {
+  padding: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  margin-top: 8px;
+}
+
+/**************************
+      Testimonials
+**************************/
+
+.testimonials {
+  background-color: #fff;
+  padding: 150px 0 100px 0;
+}
+
+.testimonials h3::after {
+  content: "";
+  border-bottom: 3px solid #ff9500;
+  width: 800px;
+  position: absolute;
+  top: 80px;
+  left: 18px;
+}
+
+.testimonials-left {
+  border: 1px solid #999;
+  padding: 15px;
+}
+
+.blockquote p {
+  font-size: 16px;
+}
+
+/**************************
+      Registration
+**************************/
+
+.register {
+  background-color: #f4f4f4;
+  padding: 120px 0 100px 0;
+}
+
+.register h3::after {
+  content: "";
+  border-bottom: 3px solid #ff9500;
+  width: 670px;
+  position: absolute;
+  top: 80px;
+  left: 18px;
+}
+
+.register button.btn.btn-lg.btn-warning {
+  color: white;
+}
+
+.vertical-row {
+  border-right: 1px solid #ff6200;
+  height: 90px;
+}
+
+.table .thead-dark th {
+  background-color: #ff6200;
+  border-color: #ff6200;
+}
+
+/**************************
+      Footer
+**************************/
+
+.footer {
+  background-color: #f4f4f4;
+  padding: 120px 0 100px 0;
+}
+
+.footer .lead {
+  font-size: 13px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #696969;
+}
+
+.tag-row span {
+  margin: 0 15px 0 0;
+  color: #9c9c9c;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  border-right: 1px solid #ccc;
+  padding-right: 16px;
+}
+
+.tag-row span:last-child {
+  border-right: 0;
+  margin-right: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+ul.list-unstyled {
+  color: #696969;
+  font-size: 14px;
+}
+
+/**************************
+      Media Queries 
+**************************/
+
+@media (max-width: 575.98px) {
+  .header-left img,
+  .top-header {
+    visibility: hidden;
+  }
+  .top-header {
+    padding-left: 0;
+  }
+  nav {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-left img,
+  .top-header {
+    visibility: hidden;
+  }
+  .top-header {
+    padding-left: 0;
+  }
+  nav {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-left img,
+  .top-header {
+    visibility: hidden;
+  }
+  .top-header {
+    padding-left: 0;
+  }
+  .header-right {
+    margin-top: 50px;
+  }
+  nav {
+    margin-top: -80px;
+  }
+  .box {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 988px) {
+  .header-left img,
+  .top-header {
+    visibility: hidden;
+  }
+  .top-header {
+    padding-left: 0;
+  }
+  nav {
+    margin-top: -50px;
+  }
+  .box {
+    margin-bottom: 35px;
+  }
+}
